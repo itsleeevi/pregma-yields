@@ -40,8 +40,8 @@ function HeroHome() {
               data-aos-delay="450"
             >
               <div className="flex flex-col justify-center">
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="bg-custom-100 p-2 rounded-lg w-72 h-96 shadow-lg shadow-cyan-500/50 grid grid-rows-9 grid-cols-3 gap-4">
+                <div className="grid lg:grid-cols-3 sm:grid-cols-3 gap-4">
+                  <div className="bg-custom-100 p-2 rounded-lg lg:w-72 sm:w-48 lg:h-96 sm:h-72 shadow-lg shadow-cyan-500/50 grid grid-rows-9 grid-cols-3 gap-4">
                     <div className=" pl-1 pt-1">
                       <img
                         className="p-2"
